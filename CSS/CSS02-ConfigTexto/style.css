@@ -1,0 +1,25 @@
+/* comentario no css*/
+
+body{
+   /* background-color: rgb(6, 66, 66);*/
+   background-color:#654b49;
+   font-family: "Josefin Sans", sans-serif;
+}
+p{
+    color:#000000; 
+}
+p{
+    background-color:#77a493;
+    font-size: 20px;
+}
+h1{
+    color:#c75f77;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+
+img{
+    height: 500px;
+    width: 900px;
+}
