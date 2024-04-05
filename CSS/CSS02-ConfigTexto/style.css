@@ -17,9 +17,17 @@ h1{
     font-family: "Amatic SC", sans-serif;
     font-size: 4rem;
     text-align: center;
+    font-weight: 900;
+    text-shadow: 3px 3px 1px black;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 }
 
 img{
     height: 500px;
     width: 900px;
+    box-shadow: 6px 6px 6px black
+}
+
+img {
+    display: block;
+    margin: auto;
 }
