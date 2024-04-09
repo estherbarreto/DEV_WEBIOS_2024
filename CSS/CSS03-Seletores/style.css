@@ -1,0 +1,20 @@
+
+.corAzul{
+    color:blue;
+
+}
+
+.corRoxa{
+    color:blueviolet  
+}
+
+#idum{
+    font-size: 20px;
+    color:darkcyan;
+    line-height: 50px;
+
+}
+
+*{
+    background-color: cornflowerblue;
+}
