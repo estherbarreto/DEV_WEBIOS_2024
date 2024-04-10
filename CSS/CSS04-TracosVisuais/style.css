@@ -1,0 +1,19 @@
+#borda1{
+    border: 2px solid hotpink
+}
+
+#siouxsie{
+    border-radius: 10px;
+    width: 900px; height:900px;
+}
+    
+#imagem{
+    border: 6px dotted palevioletred
+    
+}
+
+body{
+    background-image:url("https://picsum.photos/id/684/600/400");;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
