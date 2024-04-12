@@ -1,7 +1,30 @@
 #secao{
-    border: 1px solid hotpink;
+    border: 3px solid hotpink;
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
     padding-right:10px ;
+    margin-bottom:30px ;
+    background-color: pink;
+}
+
+#secao2{
+    border: 3px solid #cf9cfa;
+    padding: 10px;
+    margin-bottom:30px;
+    background-color: pink;
+}
+
+.cat{
+    border: 3px solid #b920c6;
+    padding: 10px;
+    background-color: pink;
+    margin-bottom:30px;
+
+}
+
+*{
+    margin-right: auto;
+    margin-left: auto;
+   width: 80%;
 }

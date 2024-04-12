@@ -1,0 +1,35 @@
+img{
+    float:left;
+    width: 800px; height: 600px;
+    border: 10px solid indigo;
+}
+*{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #cf9cfa;
+    font-family: "Pixelify Sans", sans-serif;
+}
+#imagem{
+    float: right;
+    width: 600px; height: 400px;
+    border: 10px solid indigo;
+}
+
+#p2{
+    background-color: darkslateblue;
+    color: aliceblue;
+    border: 3px solid hotpink;
+
+}
+p{
+    background-color: darkmagenta;
+    color:aliceblue;
+    border: 3px solid hotpink;
+}
+
+h1{
+    text-align: center;
+    border: 3px;
+    border: 3px solid indigo;
+}
