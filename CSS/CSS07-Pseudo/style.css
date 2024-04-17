@@ -1,0 +1,36 @@
+/*Aplicar o estilo no primeiro filho*/
+p:first-child{
+    background-color: aquamarine;
+}
+
+/*Aplicar o esilo no último filho*/
+p:last-child{
+    background-color: blue;
+}
+#botao{
+    border: 1px solid wheat;
+    border-radius: 5px 5px 5px 5px;
+    background-color:blueviolet;
+}
+#botao:hover{
+    background-color: aliceblue;
+    font-size: 20px;
+}
+#paragrafoHover:hover{
+    background-color: blueviolet;
+    color: coral;
+    border: 2px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#titulo:hover{
+  font-family: "Jacquard 24", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#imagem:hover{
+     box-shadow: 10px 10px 10px hotpink;
+}
+
