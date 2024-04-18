@@ -6,4 +6,31 @@
     .imagens{
         width: 200px;
     }
+
+    .imagens:hover{
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+}
+    body{
+        background-color: aqua;
+    }
+}
+
+@media(min-width: 452px){
+    body{
+        background-color: darkslateblue;
+    }
+
+    img{
+        width:8 00px ;
+    }
+
+    .imagens:hover{
+    border: 1px solid hotpink;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px pink;
+
+    }
+
 }
