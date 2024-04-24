@@ -1,0 +1,10 @@
+#container{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+
+}
+
+.itens{
+    border: 5px solid hotpink;
+    background-color: darkorchid;
+}
