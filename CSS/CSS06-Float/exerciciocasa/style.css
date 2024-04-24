@@ -1,0 +1,201 @@
+:root {
+    --color-1: #533618;
+    --color-2: #725436;
+    --color-3: #8C867C;
+    --color-4: #C1C2BC;
+    --color-5: #314A20;
+    --spacing: 1rem;
+  
+    font-family: system-ui, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  body {
+    margin: 0 auto;
+    background-color: var(--color-1);
+  }
+  
+  @media (width >= 576px) {
+    body {
+      max-width: 510px;
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+  
+  @media (width >= 768px) {
+    body {
+      max-width: 700px;
+    }
+  }
+  
+  @media (width >= 1024px) {
+    body {
+      max-width: 950px;
+    }
+  }
+  
+  @media (width >= 1280px) {
+    body {
+      max-width: 1200px;
+    }
+  }
+  
+  @media (width >= 1536px) {
+    body {
+      max-width: 1450px;
+    }
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 100%;
+    height: 12rem;
+  
+    background-image: url("https://ovicio.com.br/wp-content/uploads/2023/02/20230209-ovicio-shingeki-titan-730x365.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  header > h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: var(--color-4);
+    text-transform: uppercase;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+  
+    box-sizing: border-box;
+    padding: var(--spacing);
+  
+    background-image: url("https://i.pinimg.com/originals/e4/d3/85/e4d38524090e4b1f9d2fb31e894c6c97.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  main > section {
+    display: grid;
+    grid-gap: 0 var(--spacing);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+  
+    width: 100%;
+    padding: var(--spacing);
+  
+    background-color: var(--color-4);
+  }
+  
+  
+  main > .section-synopsis > .synopsis {
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  main > .section-synopsis > .synopsis > h2 {
+    margin: 0;
+  }
+  
+  main > .section-synopsis > .synopsis > button {
+    cursor: pointer;
+  
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  
+    padding: 0.5rem 1rem;
+  
+    font-weight: bold;
+    text-transform: uppercase;
+  
+    background-color: var(--color-2);
+    border: 0.25rem solid black;
+    border-radius: 1.25rem;
+  
+    transition: background-color 0.25s, color 0.25s;
+  }
+  
+  main > .section-synopsis > .synopsis > button:hover {
+    background-color: var(--color-5);
+  }
+  
+  main > .section-synopsis > .synopsis > button > a {
+    text-decoration: none;
+  }
+  
+  main > .section-info > iframe {
+    aspect-ratio: 16 / 9;
+  }
+  
+  main > .section-info > .info > p  {
+    font-size: 1.25rem;
+  }
+  
+  main > .section-info > .info > p > strong {
+    color: var(--color-1);
+  }
+  
+  main > .section-grid {
+    display: grid;
+    grid-gap: var(--spacing);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  
+  main > .section-grid > div {
+    display: flex;
+    flex-direction: row;
+    gap: var(--spacing);
+    align-items: center;
+    justify-content: space-between;
+  
+    padding: var(--spacing);
+  
+    background-color: white;
+  }
+  
+  main > .section-grid > div > img {
+    aspect-ratio: 16 / 9;
+    max-width: 50%;
+  }
+  
+  main > .section-grid > div > p {
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  main > .section-grid > div > p > a {
+    text-decoration: none;
+  }
+  
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    height: 8rem;
+  
+    color: var(--color-5);
+  
+    background-color: var(--color-4);
+  }
+  
+  footer > p {
+    margin-top: 0;;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
