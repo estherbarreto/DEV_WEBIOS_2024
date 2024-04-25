@@ -1,0 +1,24 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid green;
+    justify-content: space-evenly;
+    height: 50vh;
+    align-items: stretch;
+
+}
+
+.item{
+    background-color: rgb(86, 158, 158);
+    border: 1px solid black;
+    width: 60px;
+
+}
+
+.div1{
+    order: 1;
+}
+
+.div2{
+     order:2;
+}
