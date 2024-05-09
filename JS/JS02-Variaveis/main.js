@@ -74,3 +74,20 @@ var valor2 = 2
 var resultado = valor1 + valor2
 
 console.log(resultado)
+
+var compara = "2" == 2
+
+console.log(compara)
+
+var compara = "2" === 2
+
+console.log(compara)
+
+var compara = "2" <= 2
+
+console.log(compara)
+
+var compara = "6" < 6 === 6
+
+console.log( "varcompara " + compara)
+
