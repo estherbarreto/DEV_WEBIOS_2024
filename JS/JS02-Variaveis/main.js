@@ -39,3 +39,38 @@ var num1 = 1
 var num2 = 1
 
 console.log(num1 == num2)
+
+console.clear()
+
+var operador1 = 8
+var operador2 = null
+
+console.log(operador1 * operador2)
+
+var operador3 = "5"
+var operador4 = 1
+
+console.log(operador3 - operador4)
+
+var operador5 = "5"
+var operador6 = 1
+
+console.log(operador5 + operador6)
+
+var operador7 = 5
+var operador8 = 1
+
+console.log(operador7 + operador8)
+
+var operador9 = "five"
+var operador10 = 2
+
+console.log(operador9 * operador10)
+
+console.clear()
+
+var valor1 = 2
+var valor2 = 2
+var resultado = valor1 + valor2
+
+console.log(resultado)
