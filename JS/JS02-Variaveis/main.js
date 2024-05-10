@@ -71,23 +71,34 @@ console.clear()
 
 var valor1 = 2
 var valor2 = 2
-var resultado = valor1 + valor2
+var resultado = valor1 + valor2;
 
 console.log(resultado)
 
-var compara = "2" == 2
+var compara = "2" == 2;
 
 console.log(compara)
 
-var compara = "2" === 2
+var compara = "2" === 2;
 
 console.log(compara)
 
-var compara = "2" <= 2
+var compara = "2" <= 2;
 
 console.log(compara)
 
-var compara = "6" < 6 === 6
+var compara = "6" < 6 === 6;
 
 console.log( "varcompara " + compara)
 
+console.clear()
+
+let valor3 = 4
+let valor4 = 6
+let resultado1 = valor3 > valor4 && valor3 == valor4
+
+console.log(resultado1)
+
+var valor5 = "5"
+
+console.log(typeof valor5)
