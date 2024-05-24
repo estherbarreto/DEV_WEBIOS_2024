@@ -5,3 +5,5 @@ function retornaInfo(nomeFruta, indice){
     console.log(`nomeFruta: ${nomeFruta}`);
     console.log(`indice: ${indice}`);
 }
+
+a
