@@ -6,11 +6,13 @@ function getImage(e) {
     fetch(url_api, {
     method: 'GET',
     })
+    
     .then((response) => {
+        console.log(response)
     return response.json();
     })
     .then((data) => {
-    // console.log(data);
+    console.log(data);
     document.getElementById('json_aqui').innerText =
     JSON.stringify(data);
     // console.log(data.message)
